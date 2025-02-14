@@ -17,13 +17,21 @@ header {
 }
 nav {
     text-align: center;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+    position: sticky;
+    top: 0;
+    background-color: #A8D8B9;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav a {
     margin: 10px;
     text-decoration: none;
     color: #812700; 
     font-weight: bold;
+    
 }
 main {
     padding: 20px;
